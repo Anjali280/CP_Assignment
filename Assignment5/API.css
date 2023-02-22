@@ -1,0 +1,37 @@
+.data {
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: crimson;
+  padding: 10px;
+}
+
+.table_head {
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  box-shadow: 0 0 10px black;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+.table_head th {
+  color: black;
+  border: 1px solid grey;
+}
+
+/* table {
+  font-size: larger;
+  font-weight: 800;
+} */
+thead tr:first-child {
+  background-color: turquoise;
+  color: white;
+  font-weight: bolder;
+}
+thead th {
+  font-weight: bolder;
+}
