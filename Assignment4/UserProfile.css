@@ -1,0 +1,67 @@
+* {
+  font-family: sans-serif;
+}
+#mainDiv {
+  display: flex;
+  width: 55%;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 8%;
+}
+/* top div css */
+#topFlex {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+h4 {
+  margin-top: 8px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+#topFlex > button {
+  background-color: #272727;
+  width: 60px;
+  height: 20px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+/* top div css end */
+/* below top div css */
+#belowDiv {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 40px;
+}
+/* small div css skills css */
+#flex {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 2px 8px;
+  align-items: center;
+  border-radius: 50px;
+}
+#flex > img {
+  width: 15px;
+  height: 15px;
+}
+#flex > span {
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+#right {
+  margin-top: 0;
+}
+#right > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
