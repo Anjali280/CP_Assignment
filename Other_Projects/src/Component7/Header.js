@@ -1,7 +1,6 @@
 import { useContext } from "react";
-import { loginContext } from "./Context";
+import loginContext from "./Context";
 import { Link } from "react-router-dom";
-// import "./State_API/Nav.css";
 
 var divStyle = {
   backgroundColor: "black",
@@ -35,6 +34,7 @@ function Header(props) {
         <Link style={astyle} to="/Counter">
           Counter
         </Link>
+
         <span style={{ marginRight: "30px", color: "green", fontSize: "20px" }}>
           <b> {state.user}</b>
         </span>

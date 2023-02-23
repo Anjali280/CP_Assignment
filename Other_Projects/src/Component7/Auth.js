@@ -1,11 +1,11 @@
 import { useContext } from "react";
 import Login from "./Login";
-// import Home from "./Home";
-import Home from "./Home/Home";
-import { loginContext } from "./Context/context";
+import Home from "./Home";
+import loginContext from "./Context";
 
 function Auth(props) {
   const { state } = useContext(loginContext);
+
   return <div>{state.isLoggedIn ? <Home /> : <Login />}</div>;
 }
 

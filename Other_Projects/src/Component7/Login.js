@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { loginContext } from "./Context/context";
+import loginContext from "./Context";
 
 var loginStyle = {
   width: "300px",
@@ -27,6 +27,7 @@ function Login(props) {
     } else {
       alert("Please Check the Credentials");
     }
+    console.log(state);
   };
 
   return (
