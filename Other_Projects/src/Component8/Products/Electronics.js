@@ -21,7 +21,7 @@ function Electronics(props) {
         <ul>
           {data.map((element, index) => {
             return (
-              <NavLink to="/productdetails">
+              <NavLink to={`/productdetails/${element.id}`}>
                 <li key={index + 1}>{element.title}</li>
               </NavLink>
             );

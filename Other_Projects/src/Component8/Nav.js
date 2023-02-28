@@ -16,7 +16,7 @@ function Nav(props) {
   };
   return (
     <div className="nav" style={divStyle}>
-      <Link to="/" style={astyle}>
+      <Link to="/home" style={astyle}>
         Home
       </Link>
 
