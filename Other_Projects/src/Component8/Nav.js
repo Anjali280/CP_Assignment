@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav(props) {
   var divStyle = {
@@ -15,18 +16,21 @@ function Nav(props) {
   };
   return (
     <div className="nav" style={divStyle}>
-      <a href="/" style={astyle}>
+      <Link to="/" style={astyle}>
         Home
-      </a>
-      <a href="/reactInputBox" style={astyle}>
+      </Link>
+
+      <Link to="/reactInputBox" style={astyle}>
         ReactInputBox
-      </a>
-      <a href="counter" style={astyle}>
+      </Link>
+
+      <Link to="counter" style={astyle}>
         Counter
-      </a>
-      <a href="products" style={astyle}>
+      </Link>
+
+      <Link to="products" style={astyle}>
         Products
-      </a>
+      </Link>
     </div>
   );
 }
