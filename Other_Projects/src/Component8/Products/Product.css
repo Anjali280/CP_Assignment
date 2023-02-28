@@ -15,5 +15,6 @@
 }
 .container > div:nth-child(2) {
   width: 70%;
-  padding: 80px;
+  justify-content: center;
+  align-items: center;
 }
